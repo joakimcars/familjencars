@@ -14,7 +14,6 @@ export default function Index() {
   return (
     <main>
       <Container>
-        <div>Hello from branch</div>
         <Intro />
         <HeroPost
           title={heroPost.title}
