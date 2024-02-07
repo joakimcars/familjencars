@@ -1,5 +1,6 @@
 {
   "private": true,
+  "name": "familjencars",
   "scripts": {
     "dev": "next",
     "build": "next build",
