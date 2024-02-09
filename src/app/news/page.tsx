@@ -1,41 +1,5 @@
 import { getAllNews } from "@/lib/api";
 
-/*export default function NewsPage() {
-  const articles = getAllNews();
-  return (
-    <div>
-      <ul>
-        {articles.map((article) => {
-          return (
-            <li key={article.slug}>
-              <a href={`/news/${article.slug}`}>{article.title}</a>
-            </li>
-          );
-        })}
-      </ul>
-    </div>
-  );
-}
-*/
-
-/*export default function NewsPage() {
-  const articles = getAllNews();
-  return (
-    <div>
-      <ul>
-        {articles.map((article) => {
-          return (
-            <li key={article.slug}>
-              <header> {article.title}</header>
-            </li>
-          );
-        })}
-      </ul>
-    </div>
-  );
-}
-*/
-
 export default function NewsPage() {
   const articles = getAllNews();
   return (
