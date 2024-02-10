@@ -8,7 +8,11 @@ export default function PhotoAlbumsPage() {
         {photoAlbums.map((photoAlbum) => {
           return (
             <div key={photoAlbum.slug}>
-              <h2>{photoAlbum.title}</h2>
+              <h2>
+                <a href={`/photoalbums/${photoAlbum.slug}`}>
+                  {photoAlbum.title}
+                </a>
+              </h2>
               <img
                 className="h-auto max-w-full rounded-lg"
                 src={photoAlbum.imagepath}

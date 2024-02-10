@@ -5,4 +5,5 @@ export type PhotoAlbum = {
     date: string;
     content: string;
     preview?: boolean;
+    imagepaths: string[];
   };
