@@ -1,6 +1,3 @@
-import Container from "@/app/_components/container";
-import { EXAMPLE_PATH } from "@/lib/constants";
-
 export function Footer() {
   return (
     <footer className="bg-neutral-200 text-center dark:bg-neutral-700 lg:text-left">

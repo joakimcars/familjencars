@@ -1,6 +1,6 @@
 ---
 title: "Sommarfest i Mariestad 2018"
-imagepath: "/assets/blog/authors/sommarfest2018cover.jpg"
+imagepath: "/assets/photoalbums/sommarfest2018/cover.jpg"
 url: /photoalbum?MarieStad2018
 date: "2018-08-30"
 slug: "sommarfest2018"
