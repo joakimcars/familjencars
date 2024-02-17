@@ -1,6 +1,7 @@
 import { NewsArticle } from "@/interfaces/newsarticle";
 import { Post } from "@/interfaces/post";
 import { PhotoAlbum } from "@/interfaces/photoalbums";
+import { ContactCard } from "@/interfaces/contactcard";
 import fs from "fs";
 import matter from "gray-matter";
 import { join } from "path";
@@ -8,6 +9,7 @@ import { join } from "path";
 const postsDirectory = join(process.cwd(), "_posts");
 const articlesDirectory = join(process.cwd(), "_news");
 const photoAlbumsDirectory = join(process.cwd(), "_photoalbums");
+const contactsDirectory = join(process.cwd(), "_contacts");
 
 export function getPostSlugs() {
   return fs.readdirSync(postsDirectory);
@@ -19,6 +21,10 @@ export function getArticleSlugs() {
 
 export function getPhotoAlbumsSlugs() {
   return fs.readdirSync(photoAlbumsDirectory);
+}
+
+export function getContactsSlugs() {
+  return fs.readdirSync(contactsDirectory);
 }
 
 export function getPostBySlug(slug: string) {
@@ -48,6 +54,15 @@ export function getPhotoAlbumsBySlug(slug: string) {
   return { ...data, slug: realSlug, content } as PhotoAlbum;
 }
 
+export function getContactsBySlug(slug: string) {
+  const realSlug = slug.replace(/\.md$/, "");
+  const fullPath = join(contactsDirectory, `${realSlug}.md`);
+  const fileContents = fs.readFileSync(fullPath, "utf8");
+  const { data, content } = matter(fileContents);
+
+  return { ...data, slug: realSlug, content } as ContactCard;
+}
+
 export function getAllPosts(): Post[] {
   const slugs = getPostSlugs();
   const posts = slugs
@@ -75,4 +90,13 @@ export function getAllPhotoAlbums(): PhotoAlbum[] {
     // sort photoAlbums by date in descending order
     .sort((photoAlbums1, photoAlbums2) => (photoAlbums1.date > photoAlbums2.date ? -1 : 1));
   return photoAlbums;
+}
+
+export function getAllContacts(): ContactCard[] {
+  const contactsSlug = getContactsSlugs();
+  const contacts = contactsSlug
+    .map((slug) => getContactsBySlug(slug))
+    // sort photoAlbums by date in descending order
+    .sort((contacts1, contacts2) => (contacts1.date > contacts2.date ? -1 : 1));
+  return contacts;
 }

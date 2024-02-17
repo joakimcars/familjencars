@@ -1,6 +1,6 @@
 ---
 title: "Sommarfest i Flen 2019"
-imagepath: "/assets/blog/authors/sommarfest2019cover.jpg"
+imagepath: "/assets/photoalbums/sommarfest2019/cover.jpg"
 url: /photoalbum?Flen2019
 date: "2019-09-06"
 slug: "sommarfest2019"

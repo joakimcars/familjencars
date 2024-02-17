@@ -9,8 +9,8 @@ import { Navbar } from "./_components/navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: `Next.js Blog Example with ${CMS_NAME}`,
-  description: `A statically generated blog example using Next.js and ${CMS_NAME}.`,
+  title: `Släkten Cars`,
+  description: `Cars släktförening`,
   openGraph: {
     images: [HOME_OG_IMAGE_URL],
   },
@@ -53,6 +53,7 @@ export default function RootLayout({
           name="msapplication-config"
           content="/favicon/browserconfig.xml"
         />
+        <link rel="apple-touch-icon" href="/favicon/favicon.png" />
         <meta name="theme-color" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
