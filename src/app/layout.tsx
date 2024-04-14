@@ -43,6 +43,10 @@ export default function RootLayout({
         />
         <link rel="manifest" href="/favicon/site.webmanifest" />
         <link
+          href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
+          rel="stylesheet"
+        />
+        <link
           rel="mask-icon"
           href="/favicon/safari-pinned-tab.svg"
           color="#000000"
@@ -61,6 +65,7 @@ export default function RootLayout({
         <Navbar></Navbar>
         <div className="min-h-screen">{children}</div>
         <Footer />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
       </body>
     </html>
   );

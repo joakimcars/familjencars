@@ -13,7 +13,7 @@ export default function NewsPage() {
                   <section className="mb-32 mx-40">
                     <img
                       src={article.imagepath}
-                      className="mb-6 w-full rounded-lg shadow-lg dark:shadow-black/20"
+                      className="mb-6 rounded-lg shadow-lg dark:shadow-black/20"
                       alt="image"
                     />
 
