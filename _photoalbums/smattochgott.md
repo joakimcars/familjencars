@@ -1,5 +1,5 @@
 ---
-title: "Gott och blandat"
+title: "Bilder från nu och då.."
 imagepath: "/assets/photoalbums/gottochblandat/cover.jpg"
 url: /photoalbum?smattochgott
 date: "2024-04-15"
