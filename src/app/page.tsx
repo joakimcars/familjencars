@@ -19,7 +19,29 @@ export default function Index() {
         <div>
           <div className="container my-24 mx-auto md:px-6">
             <section className="mb-32 mx-40">
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+              <h1 className="mb-6 text-3xl font-bold">Hej kära släktingar!</h1>
+
+              <p>
+                Så är det snart dags igen att få möjlighet att träffas och umgås
+                med ”tjocka släkten”! <br />
+                <br />
+                Som vi redan tidigare informerat om så går mötet av stapeln{" "}
+                <span className="font-bold">
+                  24-25 augusti på jaktslottet Öster Malma i Nyköping, Sörmland.
+                </span>{" "}
+                Tanken med att välja just denna plats är att vi då befinner oss
+                nära släktgraven i Gåsinge och Thyra och Eiras ”Torpet”. Se
+                preliminärt program nedan. Dessutom ser det gamla slottet
+                väldigt spännande ut! Se{" "}
+                <a
+                  href="https://www.ostermalma.se/"
+                  className="text-blue-600 dark:text-blue-500 hover:underline"
+                >
+                  www.ostermalma.se
+                </a>
+              </p>
+
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 my-10">
                 <img
                   src="/assets/general/1.png"
                   className="mb-6 w-full rounded-lg shadow-lg dark:shadow-black/20"
@@ -40,7 +62,7 @@ export default function Index() {
               </div>
               <div className="mb-6 flex items-center">
                 <img
-                  src="/assets/contacts/bjorn.jpg"
+                  src="/assets/contacts/tinna.jpg"
                   className="mr-2 h-8 rounded-full"
                   alt="avatar"
                   loading="lazy"
@@ -48,22 +70,10 @@ export default function Index() {
                 <div>
                   <span>
                     {" "}
-                    Publicerat <u>2024-04-15</u> av Björn Cars
+                    Publicerat <u>2024-04-15</u> av Tinna Cars Björling
                   </span>
                 </div>
               </div>
-
-              <h1 className="mb-6 text-3xl font-bold">Hej kära släktingar!</h1>
-
-              <p>
-                Så är det snart dags igen att få möjlighet att träffas och umgås
-                med ”tjocka släkten”! Som vi redan tidigare informerat om så går
-                mötet av stapeln 24-25 augusti på jaktslottet Öster Malma i
-                Nyköping, Sörmland. Tanken med att välja just denna plats är att
-                vi då befinner oss nära släktgraven i Gåsinge och Thyra och
-                Eiras ”Torpet”. Se preliminärt program nedan. Dessutom ser det
-                gamla slottet väldigt spännande ut! Se www.ostermalma.se
-              </p>
 
               <h1 className="mb-6 text-3xl font-bold my-10">
                 PROGRAM (preliminärt)
@@ -73,17 +83,14 @@ export default function Index() {
                 Lördag 24 Augusti
               </h4>
               <ul className="list-disc mx-20">
+                <li>15.00: Ankomst/incheckning</li>
+                <li>15.30: Fika/aktivitet/lekar</li>
+                <li>17.00: Vila och ombyte inför medlemsmöte och middag </li>
                 <li>
-                  Ankomst/fika på eftermiddagen. Från 15-tiden, då vi kan checka
-                  in på slottet.
+                  18.00: Medlemsmöte med bubbel (kallelse och
+                  verksamhetsberättelse skickas ut i juni)
                 </li>
-                <li>Aktivitet/lekar</li>
-                <li>Vila och ombyte inför årsmöte och middag</li>
-                <li>
-                  Medlemsmöte med bubbel (kallelse och verksamhetsberättelse
-                  skickas ut i juni)
-                </li>
-                <li>Middag</li>
+                <li>19:00: Middag </li>
                 <li>
                   Minnen från tiden med Thyra Cars, Eira Cars och Erik Andersson
                   (Eiras man) får gärna förgylla middagen.
@@ -110,8 +117,10 @@ export default function Index() {
               </h1>
 
               <p>
-                Anmälan om deltagande görs senast den 21 juli till Björn Cars
-                ('Björn Cars' bjorn.cars@hotmail.com eller mobil 070-781 85 62).
+                Anmälan om deltagande görs{" "}
+                <span className="font-bold">senast den 21 juli</span> till Björn
+                Cars ('Björn Cars' bjorn.cars@hotmail.com eller mobil 070-781 85
+                62).
               </p>
 
               <h1 className="mb-6 text-3xl font-bold my-10">
@@ -119,23 +128,101 @@ export default function Index() {
               </h1>
 
               <p>
-                Hotell Dubbelrum 1595 kronor, enkelrum 1295 kronor (finns också
-                ett dubbelrum reserverat för par/familj med hund….) Vandrarhem
-                500 kronor per bädd inklusive lakan - exklusive frukost 150
-                kronor (vuxna) och 95 kronor (barn 3-12 år) Trerättersmiddag 695
-                kronor (vuxna) och 360 kronor (barn 3-12 år) - antingen särskild
-                barnmeny eller mindre portioner av vuxenmenyn Val av meny: kött,
-                fisk eller vegetariskt görs i samband med nytt utskick från
-                styrelsen i juni. Öster Malmas specialitet är deras viltmeny.
-                Betalning av logi, mat och dryck görs av var och en i samband
-                med utcheckning. <br />
+                <span className="underline">Hotell</span> Dubbelrum 1595 kronor,
+                enkelrum 1295 kronor (finns också ett dubbelrum reserverat för
+                par/familj med hund….) <br />
                 <br />
-                Viktig att veta: Styrelsen har bokat boende och middag för 50
-                personer på Öster Malma. Vid avbokning efter 24 juli (fyra
-                veckor innan släktmötet) blir vi betalningsskyldiga. Björn Cars
-                kommer att meddela Öster Malma antal anmälda deltagare efter den
-                21 juli. De kostnader som därefter uppstår i samband med för sen
+                <span className="underline">Vandrarhem </span>500 kronor per
+                bädd inklusive lakan - exklusive frukost 150 kronor (vuxna) och
+                95 kronor (barn 3-12 år) <br />
+                <br />
+                <span className="underline">Trerättersmiddag </span> 695 kronor
+                (vuxna) och 360 kronor (barn 3-12 år) - antingen särskild
+                barnmeny eller mindre portioner av vuxenmenyn <br />
+                <br />
+                Val av meny: kött, fisk eller vegetariskt görs i samband med
+                nytt utskick från styrelsen i juni. Öster Malmas specialitet är
+                deras viltmeny. <br />
+                <br />
+                <span className="font-bold">Betalning</span> av logi, mat och
+                dryck görs av var och en i samband med utcheckning. <br />
+                <br />
+                <span className="font-bold">Viktig att veta</span> <br />
+                <br />
+                Styrelsen har bokat boende och middag för 50 personer på Öster
+                Malma. Vid avbokning efter 24 juli (fyra veckor innan
+                släktmötet) blir vi betalningsskyldiga. Björn Cars kommer att
+                meddela Öster Malma antal anmälda deltagare efter den 21 juli.
+                De kostnader som därefter uppstår i samband med för sen
                 avbokning får var och en ansvara för.
+              </p>
+
+              <h1 className="mb-6 text-3xl font-bold my-10">
+                Uppföljning efter släktmötet i Ullinge Augusti 2022.
+              </h1>
+
+              <p>
+                Sedan mötet i Ullinge 2022 har styrelsen - i samverkan med
+                valberedningen och flera andra släktningar arbetat med några
+                frågor som stod på dagordningen eller dök upp under den
+                ”brainstorming” som ingick i mötet.
+              </p>
+
+              <h1 className="mb-6 text-3xl font-bold my-10">
+                Behov av nya medlemmar i styrelsen
+              </h1>
+
+              <p>
+                I samband med släktmötet 2022 gjorde valberedningen - Hans
+                Christian Cars och Henrik Cars - ett gediget arbete med att
+                försöka rekrytera nya och yngre släktingar till styrelsen. Detta
+                arbete lyckades tyvärr inte alls och den sittande styrelsen
+                valdes om i sin helhet. <br />
+                <br />
+                Nuvarande styrelse: Björn Cars, Håkan Cars, Helena Sandermark
+                och Tinna Cars-Björling. <br />
+                <br />
+                Helena är beredd att fortsätta uppdraget som kassör. Övriga
+                ledamöter avstår från fortsatt styrelseuppdrag, men kan bidra
+                med erfarenhet och stöd inför kommande släktmöte. <br />
+                <br />
+                Inför kommande medlemsmöte hoppas vi nu att några yngre förmågor
+                träder fram och anmäler sitt intresse och därmed får möjlighet
+                att lära känna släkten ännu bättre och dessutom ha väldigt
+                trevligt!
+                <br />
+                <br />
+                Hugade spekulanter kan med fördel höra av sig till Henrik Cars{" "}
+                <a
+                  href="henrikcars@hotmail.com"
+                  className="text-blue-600 dark:text-blue-500 hover:underline"
+                >
+                  henrikcars@hotmail.com!
+                </a>
+              </p>
+
+              <h1 className="mb-6 text-3xl font-bold my-10">
+                Släktföreningen har fått en hemsida!{" "}
+              </h1>
+
+              <p>
+                Släktföreningen har fått en hemsida!{" "}
+                <span>
+                  <a
+                    href="https://familjencars.pages.dev/"
+                    className="text-blue-600 dark:text-blue-500 hover:underline"
+                  >
+                    familjencars.pages.dev
+                  </a>
+                </span>{" "}
+                <br />
+                <br />
+                <span className="underline">
+                  Vi efterlyser även här goda krafter för att underhålla och
+                  förse hemsidan med intressant och relevant innehåll.
+                </span>
+                <br />
+                <br />
               </p>
 
               <h1 className="mb-6 text-3xl font-bold my-10">
