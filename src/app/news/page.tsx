@@ -66,7 +66,7 @@ export default function NewsPage() {
                   <div>
                     <span>
                       {" "}
-                      Publicerat <u>2024-05-10</u> av Henrik Cars
+                      Publicerat <u>2024-06-03</u> av Henrik Cars
                     </span>
                   </div>
                 </div>
@@ -181,11 +181,11 @@ export default function NewsPage() {
                   <div>
                     <span>
                       {" "}
-                      Publicerat <u>2024-05-10</u> av Henrik Cars
+                      Publicerat <u>2024-06-03</u> av Henrik Cars
                     </span>
                   </div>
                 </div>
-                <h1 className="mb-6 text-3xl font-bold">
+                <h1 className="mb-6 text-3xl font-bold my-10">
                   UPPFÖLJNING EFTER SLÄKTMÖTET I ULLINGE AUGUSTI 2022
                 </h1>
                 <div>
@@ -194,6 +194,103 @@ export default function NewsPage() {
                     valberedningen och flera andra släktningar arbetat med några
                     frågor som stod på dagordningen eller dök upp under den
                     ”brainstorming” som ingick i mötet.
+                  </p>
+                </div>
+              </section>
+            </div>
+          </div>
+
+          <div>
+            <div className="container my-24 mx-auto md:px-6">
+              <section className="mb-32 mx-40">
+                <img
+                  src="/assets/news/grav.jpg"
+                  className="mb-6 rounded-lg shadow-lg dark:shadow-black/20"
+                  alt="image"
+                />
+                <div className="mb-6 flex items-center">
+                  <img
+                    src="/assets/authors/tinna.jpg"
+                    className="mr-2 h-8 rounded-full"
+                    alt="avatar"
+                    loading="lazy"
+                  />
+                  <div>
+                    <span>
+                      {" "}
+                      Publicerat <u>2024-06-03</u> av Tinna Cars Björling
+                    </span>
+                  </div>
+                </div>
+                <h1 className="mb-6 text-3xl font-bold">
+                  SLÄKTGRAVARNA I MÖRLUNDA OCH GÅSINGE
+                </h1>
+                <div>
+                  <p>
+                    Otto Carlssons gravsten på Mörlunda kyrkogård. <br />
+                    <br />
+                    <span className="underline">
+                      Sammanfattning av Lars af Ekenstam december 2023.
+                    </span>
+                    <br />
+                    <br />
+                    Här kommer en summering av det jag fått fram om Otto
+                    Carlssons gravsten efter samtal med kyrkogårdsföreståndaren
+                    Jörgen Pettersson i Aspelunds pastorat:
+                    <br />
+                    <br />
+                  </p>
+                  <ul className="list-disc mx-20">
+                    <li>
+                      Gravstenen är kulturminnesmärkt enligt klass 2, vilket
+                      innebär att den inte får tas bort. Men den underhålls inte
+                      av kyrkan på annat sätt än att de klipper gräset. Det
+                      medför i sin tur att:
+                      <br />
+                      - vi inte behöver vara gravrättsinnehavare med
+                      gravrättsavgift på 1500 kr för 10 eller 15 år för att
+                      stenen ska få vara kvar.
+                      <br />- vi inte heller behöver betala grundskötsel på
+                      sannolikt 440 kr/år.
+                    </li>
+                    <li>
+                      Vi kan själva bekosta åtgärder som vi tycker bör göras,
+                      som t ex att fylla i texten på gravstenen, utan att vi är
+                      gravrättsinnehavare. Vi informerar i så fall
+                      kyrkogårdsföreståndaren innan vi gör någon åtgärd.
+                    </li>
+                    <li>
+                      Om gravstenen lutar så pass mycket att den kan falla så
+                      åtgärdas det sannolikt av kyrkogårdsförvaltningen utan att
+                      vi behöver vara delaktiga, eftersom det annars utgör en
+                      olycksrisk. Sannolikt skulle den då också lyftas upp så
+                      att inskriptionen på sockeln blir synlig.
+                    </li>
+                    <li>
+                      För kännedom så sa kyrkogårdsföreståndaren också att
+                      gravstenen sannolikt inte står över den ursprungliga
+                      gravplatsen.
+                    </li>
+                  </ul>
+                  <p>
+                    <br />
+                    <br />
+                    <span className="underline">
+                      Erik Anderssons, Thyra Cars och Eira Cars grav i Gåsinge
+                    </span>
+                    <br />
+                    Sammanfattning av Tinna Cars-Björling april 2024.
+                    <br />
+                    <br />
+                    Hadar Cars är gravrättsinnehavare för Gåsingegraven. Han har
+                    bett styrelsen ta upp frågan om hur denna fråga ska
+                    förvaltas i framtiden. I viss mån (vet ej i vilken
+                    omfattning) har Hadar fått ersättning för omkostnaderna. Att
+                    vara gravrättsinnehavare ska vara knutet till en eller flera
+                    fysiska personer. Styrelsen tycker inte att det är lämpligt
+                    att knyta uppdraget till styrelseledamöter och har f n inte
+                    kommit fram till något konkret förslag som svar på Hadars
+                    fråga.
                   </p>
                 </div>
               </section>
@@ -218,12 +315,12 @@ export default function NewsPage() {
                   <div>
                     <span>
                       {" "}
-                      Publicerat <u>2024-05-10</u> av Joakim Cars
+                      Publicerat <u>2024-06-03</u> av Joakim Cars
                     </span>
                   </div>
                 </div>
                 <h1 className="mb-6 text-3xl font-bold">
-                  Välkommna till släkföreningen Cars nya hemsida!
+                  VÄLKOMMEN TILL SLÄKTFÖRENINGEN CARS NYA HEMSIDA!
                 </h1>
                 <div>
                   <p>

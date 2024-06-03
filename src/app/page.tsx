@@ -70,7 +70,7 @@ export default function Index() {
                 <div>
                   <span>
                     {" "}
-                    Publicerat <u>2024-04-15</u> av Tinna Cars Björling
+                    Publicerat <u>2024-06-03</u> av Tinna Cars Björling
                   </span>
                 </div>
               </div>
@@ -158,7 +158,7 @@ export default function Index() {
               </p>
 
               <h1 className="mb-6 text-3xl font-bold my-10">
-                Uppföljning efter släktmötet i Ullinge Augusti 2022.
+                UPPFÖLJNING EFTER SLÄKTMÖTET I ULLINGE AUGUSTI 2022
               </h1>
 
               <p>
@@ -202,7 +202,7 @@ export default function Index() {
               </p>
 
               <h1 className="mb-6 text-3xl font-bold my-10">
-                Släktföreningen har fått en hemsida!{" "}
+                SLÄKTFÖRENINGEN HAR FÅTT EN NY HEMSIDA!{" "}
               </h1>
 
               <p>
@@ -220,13 +220,20 @@ export default function Index() {
                 <span className="underline">
                   Vi efterlyser även här goda krafter för att underhålla och
                   förse hemsidan med intressant och relevant innehåll.
-                </span>
+                </span>{" "}
+                Se under nyheter för mer information om den nya hemsidan.
                 <br />
                 <br />
               </p>
 
               <h1 className="mb-6 text-3xl font-bold my-10">
-                Inbetalning av medlemsavgift
+                SLÄKTGRAVARNA I MÖRLUNDA OCH GÅSINGE{" "}
+              </h1>
+
+              <p>Se mer information om släktgravarna under nyheter! </p>
+
+              <h1 className="mb-6 text-3xl font-bold my-10">
+                INBETALNING AV MEDLEMSAVGIFT
               </h1>
 
               <p>

@@ -33,7 +33,7 @@ export default function HistoryPage() {
             </div>
 
             <h1 className="mb-6 text-3xl font-bold">
-              Slätföreningen Cars historia
+              Släktföreningen Cars historia
             </h1>
 
             <p>
@@ -112,7 +112,32 @@ export default function HistoryPage() {
               i Sörmland 24-25 augusti. Detta möte var också ett jubileum,
               eftersom det var 25 år sedan det beslöts att bilda en
               släktförening. Julita hade inte någon direkt koppling till
-              släkten, men till Sörmland fanns en koppling genom
+              släkten, men till Sörmland fanns en koppling genomEira och Thyra
+              och deras Lundtorp. Julita fungerade också mycket bra som en
+              samlingsplats för släkten. Vi hade hyrt hela Julita med alla
+              hotellrum och vandrarhemmet så vi kunde vara ifred. Det fanns
+              vidare områden där vi kunde leka och så ligger det mycket vackert
+              intill sjön Öljaren. 59 släktingar, varav en fjärdedel barn,
+              samlades på lördagseftermiddagen ute på en äng nere vid sjön för
+              kaffe och sedan olika lekar, både mer fysiska, som att kasta
+              bollar och testa olika smaker, och mer intellektuella, som
+              tipspromenad. Medlemmarna var indelade i olika lag med både barn
+              och vuxna i varje lag, som tävlade mot varandra. Tävlingarna var
+              uppskattade och vädret var vackert. Vi har ofta haft tur med
+              vädret på våra släktmöten. Även detta år kunde vi därför ha själva
+              den formella delen av mötet utomhus – på gården till Caféet, där
+              vi för övrigt åt frukost dagen därpå. Under mötet serverades ett
+              glas ”bubbel”. Hans-Christian Cars valdes till ordförande för
+              föreningen. Och förutom de stadgeenliga punkterna informerades om
+              denna Släktföreningens historia som särskilt Thorsten och Hadar
+              bidragit till. I sitt inledningsanförande nämnde vidare avgående
+              ordförande Ingrid Cars Westrell de medlemmar som avlidit sedan
+              föregående möte, Eida Cars Wesslén, Gunnar Fahlberg, Ingrid Cars
+              (som varit gift med Gunnar) och Ingemar Cars.
+              <br />
+              <br />
+              Efter mötet serverades en trerättersmiddag i Bäckstugan. Vid
+              middagen hölls några tal och bjöds på musikalisk underhållning.
               <br />
               <br />
             </p>
